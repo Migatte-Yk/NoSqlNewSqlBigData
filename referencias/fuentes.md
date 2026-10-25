@@ -1,14 +1,16 @@
 # Fuentes
 
-**Estado: candidatas, aún NO verificadas.** Antes de citarlas en el informe hay que abrir cada URL, confirmar título, autor/organización, año y fecha de consulta, y completar la referencia APA 7. No se han inventado autores ni fechas: los campos desconocidos quedan como `[POR VERIFICAR]`.
+Alcance de la verificación: las URL y metadatos se confirmaron con una búsqueda web (títulos, URL, resúmenes). **No se leyeron los documentos completos**; las afirmaciones del informe se limitan a lo que indican esos resúmenes. Los DOI de Pavlo y Aslett no se pudieron confirmar en la página del editor, por eso se cita la URL de SIGMOD Record. Fechas de consulta: 25 de octubre de 2026.
 
-| Fuente | URL candidata | Verificada |
+| Fuente | URL | Estado |
 |---|---|---|
-| Guía práctica: Instalación y configuración de NewSQL (material del docente, Universidad de Cundinamarca) | Moodle de la asignatura | Sí, entregada por el docente (autor/año: [POR VERIFICAR]) |
-| Cockroach Labs. Documentación de CockroachDB (arquitectura, SQL, transacciones, `start-single-node`) | https://www.cockroachlabs.com/docs/ | No |
-| MongoDB, Inc. MongoDB Manual (CRUD, aggregation pipeline, data modeling) | https://www.mongodb.com/docs/manual/ | No |
-| MongoDB, Inc. MongoDB Compass documentation | https://www.mongodb.com/docs/compass/ | No |
-| MongoDB, Inc. MongoDB Shell (mongosh) documentation | https://www.mongodb.com/docs/mongodb-shell/ | No |
-| Fuentes académicas sobre NewSQL / NoSQL / Big Data (p. ej., Pavlo y Aslett, 2016, "What's Really New with NewSQL?", SIGMOD Record) | [POR VERIFICAR: buscar DOI] | No |
+| Pavlo, A., y Aslett, M. (2016). What's really new with NewSQL? *ACM SIGMOD Record, 45*(2), 45–55. | https://sigmodrecord.org/publications/sigmodRecord/1606/pdfs/07_forum_Pavlo.pdf | URL y datos confirmados por búsqueda; DOI no confirmado |
+| Taft, R., Sharif, I., Matei, A., VanBenschoten, N., Lewis, J., Grieger, T., Niemi, K., Woods, A., Birzin, A., Poss, R., Bardea, P., Ranade, A., Darnell, B., Gruneir, B., Jaffray, J., Zhang, L., y Mattis, P. (2020). CockroachDB: The resilient geo-distributed SQL database. En *Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data*. | https://doi.org/10.1145/3318464.3386134 | DOI confirmado por varias fuentes; páginas: [POR VERIFICAR] |
+| Cattell, R. (2010). Scalable SQL and NoSQL data stores. *ACM SIGMOD Record, 39*(4), 12–27. | https://sigmodrecord.org/publications/sigmodRecord/1012/pdfs/04.surveys.cattell.pdf | Confirmado (algunas bases la fechan 2011) |
+| Cockroach Labs. (s. f.). *Transactions*. CockroachDB Docs. | https://www.cockroachlabs.com/docs/stable/transactions | Confirmado por búsqueda |
+| Cockroach Labs. (s. f.). *BEGIN*. CockroachDB Docs. | https://www.cockroachlabs.com/docs/stable/begin-transaction | Confirmado por búsqueda |
+| MongoDB, Inc. (s. f.). *Aggregation operations*. MongoDB Manual. | https://www.mongodb.com/docs/manual/aggregation/ | Confirmado por búsqueda |
+| MongoDB, Inc. (s. f.). *aggregate (database command)*. MongoDB Manual. | https://www.mongodb.com/docs/manual/reference/command/aggregate/ | Confirmado por búsqueda |
+| Universidad de Cundinamarca. (s. f.). *Guía práctica: Instalación y configuración de NewSQL* [Material de clase]. | Moodle de la asignatura | Entregada por el docente; autor y año [POR VERIFICAR] |
 
-Formato APA 7 definitivo: se completará en el informe solo con lo verificado.
+Pendiente (no citar hasta consultar): documentación de MongoDB Compass y de mongosh, y una fuente para la definición de Big Data.

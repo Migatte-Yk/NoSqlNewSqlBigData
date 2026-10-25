@@ -18,7 +18,13 @@ Resolver y documentar ejercicios prácticos con un motor NewSQL y uno NoSQL docu
 - Comparar ambos enfoques distinguiendo lo documentado de lo observado.
 
 ## 5. Marco conceptual
-[PENDIENTE: redactar NewSQL, NoSQL y Big Data con citas APA de fuentes verificadas en `referencias/fuentes.md`.]
+**NewSQL.** Pavlo y Aslett (2016) describen NewSQL como una clase de sistemas que afirman escalar cargas OLTP más allá de los sistemas relacionales tradicionales, y cuestionan si esa superioridad es real o en parte publicidad. CockroachDB se presenta en Taft et al. (2020) como un SGBD SQL escalable, diseñado para cargas OLTP globales con alta disponibilidad y consistencia fuerte. Estas son afirmaciones de los autores; en esta práctica no se probaron ni la escalabilidad ni la alta disponibilidad (un solo nodo).
+
+**Transacciones en CockroachDB.** Según su documentación, las transacciones agrupan sentencias en una unidad de todo o nada: BEGIN las inicia, COMMIT las confirma y ROLLBACK las aborta; por defecto el aislamiento es SERIALIZABLE (Cockroach Labs, s. f.-a, s. f.-b).
+
+**NoSQL.** Cattell (2010) revisa almacenes SQL y NoSQL diseñados para cargas simples distribuidas en muchos servidores y los compara por modelo de datos, consistencia, durabilidad, disponibilidad y capacidad de consulta, señalando que suelen sacrificar propiedades como la consistencia transaccional global a cambio de disponibilidad y escalabilidad. MongoDB es un almacén documental; su manual indica que para muchos escenarios el modelo desnormalizado (documentos y arrays embebidos) sigue siendo óptimo (MongoDB, Inc., s. f.-b) y que las consultas analíticas se expresan como pipelines de etapas (MongoDB, Inc., s. f.-a).
+
+**Big Data.** [PENDIENTE: añadir una definición con fuente verificada; no se ha consultado ninguna todavía.]
 
 ## 6. Herramientas y entorno
 Windows 11; CockroachDB v26.3.2 (`start-single-node --insecure`, un nodo, desarrollo local); MongoDB Server 9.0.2 standalone; mongosh 2.14.0; Compass 1.53.1; Git; Python 3. Sin pruebas de distribución ni rendimiento.
@@ -70,7 +76,23 @@ Un nodo por motor; datos pequeños y sintéticos; sin pruebas de rendimiento, al
 [PENDIENTE: redactar al cerrar evidencias.]
 
 ## 14. Referencias (APA 7)
-[PENDIENTE: completar solo con fuentes verificadas; ver `referencias/fuentes.md`.]
+Cattell, R. (2010). Scalable SQL and NoSQL data stores. *ACM SIGMOD Record, 39*(4), 12–27. https://sigmodrecord.org/publications/sigmodRecord/1012/pdfs/04.surveys.cattell.pdf
+
+Cockroach Labs. (s. f.-a). *Transactions*. CockroachDB Docs. https://www.cockroachlabs.com/docs/stable/transactions
+
+Cockroach Labs. (s. f.-b). *BEGIN*. CockroachDB Docs. https://www.cockroachlabs.com/docs/stable/begin-transaction
+
+MongoDB, Inc. (s. f.-a). *Aggregation operations*. MongoDB Manual. https://www.mongodb.com/docs/manual/aggregation/
+
+MongoDB, Inc. (s. f.-b). *aggregate (database command)*. MongoDB Manual. https://www.mongodb.com/docs/manual/reference/command/aggregate/
+
+Pavlo, A., y Aslett, M. (2016). What's really new with NewSQL? *ACM SIGMOD Record, 45*(2), 45–55. https://sigmodrecord.org/publications/sigmodRecord/1606/pdfs/07_forum_Pavlo.pdf
+
+Taft, R., Sharif, I., Matei, A., VanBenschoten, N., Lewis, J., Grieger, T., Niemi, K., Woods, A., Birzin, A., Poss, R., Bardea, P., Ranade, A., Darnell, B., Gruneir, B., Jaffray, J., Zhang, L., y Mattis, P. (2020). CockroachDB: The resilient geo-distributed SQL database. En *Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data*. https://doi.org/10.1145/3318464.3386134
+
+Universidad de Cundinamarca. ([POR VERIFICAR: año]). *Guía práctica: Instalación y configuración de NewSQL* [Material de clase]. Moodle, asignatura Big Data (604025).
+
+[PENDIENTE: confirmar páginas de Taft et al. y autor/año de la guía; añadir la fuente de Big Data. Las referencias se verificaron por búsqueda, no por lectura completa; ver `referencias/fuentes.md`.]
 
 ## 15. Repositorio
 [PENDIENTE: URL de GitHub]
