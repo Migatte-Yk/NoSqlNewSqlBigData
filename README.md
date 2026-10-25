@@ -65,9 +65,11 @@ Resultados esperados: 5 / 24 / 36 (matrículas embebidas); mismas agregaciones q
 | Ejercicio | Estado |
 |---|---|
 | A1–A6 (CockroachDB) | Ejecutados correctamente (salidas en `evidencias/salidas/crdb_*.txt`) |
-| B1 | Servidor, mongosh y Compass instalados; servicio activo; **conexión desde Compass pendiente de captura** |
-| B2–B5 (scripts) | Ejecutados correctamente con mongosh (`evidencias/salidas/mongo_*.txt`) |
+| B1 | Servidor, mongosh y Compass instalados; servicio activo; Compass conectado a `localhost:27017` |
+| B2–B5 | Ejecutados correctamente con mongosh y Compass (`evidencias/salidas/mongo_*.txt`) |
 | B6 (exportación desde Compass) | Documentada; **no ejecutada** |
-| Capturas, PDF, repositorio remoto | **Pendientes** |
+| Capturas de pantalla | 16 imágenes en `evidencias/` (ver índice en `evidencias/README.md`) |
 
-Informe PDF: [PENDIENTE]. Repositorio GitHub: [PENDIENTE: URL].
+Autor: Nikolas Krejci · Especialización en Analítica y Ciencia de Datos, Universidad de Cundinamarca.
+Informe técnico: [`informe/informe_tecnico.pdf`](informe/informe_tecnico.pdf) (fuente en `informe/informe_tecnico.md`; se regenera con `python informe/generar_pdf.py`, requiere `pip install markdown` y Microsoft Edge).
+Repositorio: https://github.com/Migatte-Yk/NoSqlNewSqlBigData

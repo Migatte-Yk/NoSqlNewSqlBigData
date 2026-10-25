@@ -13,4 +13,6 @@ Alcance de la verificación: las URL y metadatos se confirmaron con una búsqued
 | MongoDB, Inc. (s. f.). *aggregate (database command)*. MongoDB Manual. | https://www.mongodb.com/docs/manual/reference/command/aggregate/ | Confirmado por búsqueda |
 | Universidad de Cundinamarca. (s. f.). *Guía práctica: Instalación y configuración de NewSQL* [Material de clase]. | Moodle de la asignatura | Entregada por el docente; autor y año [POR VERIFICAR] |
 
-Pendiente (no citar hasta consultar): documentación de MongoDB Compass y de mongosh, y una fuente para la definición de Big Data.
+| NIST Big Data Public Working Group. (2015). NIST big data interoperability framework: Volume 1, definitions (NIST SP 1500-1). | https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1500-1.pdf | Existencia, título y fecha confirmados por búsqueda; el texto no se leyó (la afirmación del informe se basa en resúmenes) |
+
+No se citan la documentación de MongoDB Compass ni la de mongosh porque no se consultaron.
