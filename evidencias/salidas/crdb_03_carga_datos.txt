@@ -1,0 +1,11 @@
+SET
+DELETE 0
+DELETE 0
+DELETE 0
+INSERT 0 5
+INSERT 0 24
+INSERT 0 36
+tabla	filas
+programas	5
+estudiantes	24
+matriculas	36

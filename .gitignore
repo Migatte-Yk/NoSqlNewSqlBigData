@@ -1,0 +1,18 @@
+# Datos y binarios de los motores (no se publican)
+*.sst
+*.blob
+data/
+cockroach-data/
+*.exe
+*.zip
+*.msi
+# Secretos y configuración local
+.env
+*.key
+*.pem
+*.crt
+*.pfx
+node_modules/
+__pycache__/
+*.log
+.claude/

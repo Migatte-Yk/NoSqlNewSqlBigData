@@ -1,0 +1,154 @@
+SET
+codigo	nombres	apellidos	correo	fecha_nacimiento	ciudad	programa_id	fecha_ingreso	telefono
+E2024001	Ana	Ramírez Rojas	est01@ejemplo.invalid	2000-04-18	Fusagasugá	1	2025-02-03	3002419955
+E2024002	Luis	Gómez Salazar	est02@ejemplo.invalid	1999-06-15	Bogotá	2	2025-02-03	3002390784
+E2024003	María	Torres Rincón	est03@ejemplo.invalid	2001-04-09	Bogotá	3	2025-02-03	NULL
+E2024004	Carlos	Rojas Ramírez	est04@ejemplo.invalid	2004-10-20	Soacha	4	2024-08-05	3003207236
+E2024005	Laura	Herrera Moreno	est05@ejemplo.invalid	1998-08-30	Arbeláez	5	2024-02-05	3005456749
+E2024006	Andrés	Castro Quintero	est06@ejemplo.invalid	1999-10-18	Silvania	1	2024-02-05	NULL
+E2024007	Camila	Vargas Ríos	est07@ejemplo.invalid	2002-05-27	Silvania	2	2024-08-05	3003889683
+E2024008	Jorge	Moreno Herrera	est08@ejemplo.invalid	2002-11-21	Fusagasugá	3	2024-02-05	3002436948
+E2024009	Valentina	Jiménez Ortiz	est09@ejemplo.invalid	2004-06-27	Fusagasugá	4	2024-08-05	NULL
+E2024010	Felipe	Pardo Bernal	est10@ejemplo.invalid	2003-11-22	Fusagasugá	5	2024-08-05	3007662722
+E2024011	Daniela	Salazar Gómez	est11@ejemplo.invalid	2002-05-27	Bogotá	1	2024-02-05	3005371980
+E2024012	Sebastián	Ortiz Jiménez	est12@ejemplo.invalid	2001-11-06	Fusagasugá	2	2024-08-05	NULL
+E2024013	Paula	Mejía Parra	est13@ejemplo.invalid	1999-12-23	Soacha	3	2025-02-03	3007454243
+E2024014	Mateo	Cárdenas Cortés	est14@ejemplo.invalid	2002-01-24	Bogotá	4	2025-02-03	3001768147
+E2024015	Sofía	Quintero Castro	est15@ejemplo.invalid	2000-11-19	Arbeláez	5	2024-08-05	NULL
+E2024016	Diego	Parra Mejía	est16@ejemplo.invalid	1998-09-14	Girardot	1	2024-08-05	3009855607
+E2024017	Natalia	Suárez Acosta	est17@ejemplo.invalid	2004-12-12	Silvania	2	2025-02-03	3006638611
+E2024018	Santiago	Rincón Torres	est18@ejemplo.invalid	2000-09-28	Bogotá	3	2024-08-05	NULL
+E2024019	Isabela	Bernal Pardo	est19@ejemplo.invalid	1998-06-09	Silvania	4	2025-02-03	3001386408
+E2024020	Julián	Acosta Suárez	est20@ejemplo.invalid	2000-10-09	Bogotá	5	2024-02-05	3002773055
+E2024021	Lucía	Peña Lozano	est21@ejemplo.invalid	1998-12-19	Soacha	1	2024-02-05	NULL
+E2024022	Nicolás	Ríos Vargas	est22@ejemplo.invalid	1998-12-09	Silvania	2	2024-02-05	3002131875
+E2024023	Juliana	Cortés Cárdenas	est23@ejemplo.invalid	2002-10-19	Fusagasugá	3	2025-02-03	3005403280
+E2024024	Tomás	Lozano Peña	est24@ejemplo.invalid	2004-11-16	Fusagasugá	4	2025-02-03	NULL
+codigo	nombres	apellidos	ciudad
+E2024001	Ana	Ramírez Rojas	Fusagasugá
+E2024006	Andrés	Castro Quintero	Silvania
+E2024011	Daniela	Salazar Gómez	Bogotá
+E2024016	Diego	Parra Mejía	Girardot
+E2024021	Lucía	Peña Lozano	Soacha
+codigo	apellidos	nombres	fecha_ingreso
+E2024020	Acosta Suárez	Julián	2024-02-05
+E2024019	Bernal Pardo	Isabela	2025-02-03
+E2024006	Castro Quintero	Andrés	2024-02-05
+E2024023	Cortés Cárdenas	Juliana	2025-02-03
+E2024014	Cárdenas Cortés	Mateo	2025-02-03
+E2024002	Gómez Salazar	Luis	2025-02-03
+E2024005	Herrera Moreno	Laura	2024-02-05
+E2024009	Jiménez Ortiz	Valentina	2024-08-05
+E2024024	Lozano Peña	Tomás	2025-02-03
+E2024013	Mejía Parra	Paula	2025-02-03
+E2024008	Moreno Herrera	Jorge	2024-02-05
+E2024012	Ortiz Jiménez	Sebastián	2024-08-05
+E2024010	Pardo Bernal	Felipe	2024-08-05
+E2024016	Parra Mejía	Diego	2024-08-05
+E2024021	Peña Lozano	Lucía	2024-02-05
+E2024015	Quintero Castro	Sofía	2024-08-05
+E2024001	Ramírez Rojas	Ana	2025-02-03
+E2024018	Rincón Torres	Santiago	2024-08-05
+E2024004	Rojas Ramírez	Carlos	2024-08-05
+E2024022	Ríos Vargas	Nicolás	2024-02-05
+E2024011	Salazar Gómez	Daniela	2024-02-05
+E2024017	Suárez Acosta	Natalia	2025-02-03
+E2024003	Torres Rincón	María	2025-02-03
+E2024007	Vargas Ríos	Camila	2024-08-05
+codigo	apellidos	nombres	fecha_ingreso
+E2024001	Ramírez Rojas	Ana	2025-02-03
+E2024002	Gómez Salazar	Luis	2025-02-03
+E2024003	Torres Rincón	María	2025-02-03
+E2024013	Mejía Parra	Paula	2025-02-03
+E2024014	Cárdenas Cortés	Mateo	2025-02-03
+E2024017	Suárez Acosta	Natalia	2025-02-03
+E2024019	Bernal Pardo	Isabela	2025-02-03
+E2024023	Cortés Cárdenas	Juliana	2025-02-03
+E2024024	Lozano Peña	Tomás	2025-02-03
+E2024004	Rojas Ramírez	Carlos	2024-08-05
+E2024007	Vargas Ríos	Camila	2024-08-05
+E2024009	Jiménez Ortiz	Valentina	2024-08-05
+E2024010	Pardo Bernal	Felipe	2024-08-05
+E2024012	Ortiz Jiménez	Sebastián	2024-08-05
+E2024015	Quintero Castro	Sofía	2024-08-05
+E2024016	Parra Mejía	Diego	2024-08-05
+E2024018	Rincón Torres	Santiago	2024-08-05
+E2024005	Herrera Moreno	Laura	2024-02-05
+E2024006	Castro Quintero	Andrés	2024-02-05
+E2024008	Moreno Herrera	Jorge	2024-02-05
+E2024011	Salazar Gómez	Daniela	2024-02-05
+E2024020	Acosta Suárez	Julián	2024-02-05
+E2024021	Peña Lozano	Lucía	2024-02-05
+E2024022	Ríos Vargas	Nicolás	2024-02-05
+codigo	nombres	apellidos	programa	facultad
+E2024002	Luis	Gómez Salazar	Administración de Empresas	Ciencias Administrativas
+E2024012	Sebastián	Ortiz Jiménez	Administración de Empresas	Ciencias Administrativas
+E2024022	Nicolás	Ríos Vargas	Administración de Empresas	Ciencias Administrativas
+E2024017	Natalia	Suárez Acosta	Administración de Empresas	Ciencias Administrativas
+E2024007	Camila	Vargas Ríos	Administración de Empresas	Ciencias Administrativas
+E2024023	Juliana	Cortés Cárdenas	Contaduría Pública	Ciencias Administrativas
+E2024013	Paula	Mejía Parra	Contaduría Pública	Ciencias Administrativas
+E2024008	Jorge	Moreno Herrera	Contaduría Pública	Ciencias Administrativas
+E2024018	Santiago	Rincón Torres	Contaduría Pública	Ciencias Administrativas
+E2024003	María	Torres Rincón	Contaduría Pública	Ciencias Administrativas
+E2024020	Julián	Acosta Suárez	Enfermería	Ciencias de la Salud
+E2024005	Laura	Herrera Moreno	Enfermería	Ciencias de la Salud
+E2024010	Felipe	Pardo Bernal	Enfermería	Ciencias de la Salud
+E2024015	Sofía	Quintero Castro	Enfermería	Ciencias de la Salud
+E2024006	Andrés	Castro Quintero	Ingeniería de Sistemas	Ingeniería
+E2024016	Diego	Parra Mejía	Ingeniería de Sistemas	Ingeniería
+E2024021	Lucía	Peña Lozano	Ingeniería de Sistemas	Ingeniería
+E2024001	Ana	Ramírez Rojas	Ingeniería de Sistemas	Ingeniería
+E2024011	Daniela	Salazar Gómez	Ingeniería de Sistemas	Ingeniería
+E2024019	Isabela	Bernal Pardo	Zootecnia	Ciencias Agropecuarias
+E2024014	Mateo	Cárdenas Cortés	Zootecnia	Ciencias Agropecuarias
+E2024009	Valentina	Jiménez Ortiz	Zootecnia	Ciencias Agropecuarias
+E2024024	Tomás	Lozano Peña	Zootecnia	Ciencias Agropecuarias
+E2024004	Carlos	Rojas Ramírez	Zootecnia	Ciencias Agropecuarias
+matricula_id	codigo	apellidos	semestre	estado	creditos	valor
+31	E2024019	Bernal Pardo	2025-1	FINALIZADA	18	3240000.00
+35	E2024023	Cortés Cárdenas	2025-1	CANCELADA	14	2520000.00
+26	E2024014	Cárdenas Cortés	2025-1	FINALIZADA	14	2520000.00
+3	E2024002	Gómez Salazar	2025-1	FINALIZADA	16	2880000.00
+18	E2024009	Jiménez Ortiz	2025-1	FINALIZADA	16	2880000.00
+36	E2024024	Lozano Peña	2025-1	ACTIVA	12	2160000.00
+25	E2024013	Mejía Parra	2025-1	APLAZADA	12	2160000.00
+24	E2024012	Ortiz Jiménez	2025-1	FINALIZADA	12	2160000.00
+20	E2024010	Pardo Bernal	2025-1	FINALIZADA	16	2880000.00
+1	E2024001	Ramírez Rojas	2025-1	FINALIZADA	20	3600000.00
+8	E2024004	Rojas Ramírez	2025-1	FINALIZADA	18	3240000.00
+29	E2024017	Suárez Acosta	2025-1	FINALIZADA	16	2880000.00
+5	E2024003	Torres Rincón	2025-1	FINALIZADA	16	2880000.00
+14	E2024007	Vargas Ríos	2025-1	ACTIVA	16	2880000.00
+programa	total_estudiantes
+Administración de Empresas	5
+Contaduría Pública	5
+Ingeniería de Sistemas	5
+Zootecnia	5
+Enfermería	4
+estado	total
+FINALIZADA	26
+ACTIVA	6
+APLAZADA	3
+CANCELADA	1
+semestre	matriculas	creditos_totales	valor_total
+2024-1	7	118	21240000.00
+2024-2	12	194	34920000.00
+2025-1	14	216	38880000.00
+2025-2	3	46	8280000.00
+programa	total_matriculas
+Ingeniería de Sistemas	8
+Administración de Empresas	8
+codigo	apellidos	n_matriculas
+E2024001	Ramírez Rojas	2
+E2024002	Gómez Salazar	2
+E2024003	Torres Rincón	2
+E2024004	Rojas Ramírez	2
+E2024005	Herrera Moreno	2
+E2024006	Castro Quintero	2
+E2024007	Vargas Ríos	2
+E2024008	Moreno Herrera	2
+E2024009	Jiménez Ortiz	2
+E2024010	Pardo Bernal	2
+E2024011	Salazar Gómez	2
+E2024012	Ortiz Jiménez	2

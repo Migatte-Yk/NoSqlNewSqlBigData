@@ -1,0 +1,37 @@
+[
+  {
+    "programa_id": 1,
+    "codigo": "ISIS",
+    "nombre": "Ingeniería de Sistemas",
+    "facultad": "Ingeniería",
+    "duracion_semestres": 10
+  },
+  {
+    "programa_id": 2,
+    "codigo": "ADEM",
+    "nombre": "Administración de Empresas",
+    "facultad": "Ciencias Administrativas",
+    "duracion_semestres": 9
+  },
+  {
+    "programa_id": 3,
+    "codigo": "CONT",
+    "nombre": "Contaduría Pública",
+    "facultad": "Ciencias Administrativas",
+    "duracion_semestres": 9
+  },
+  {
+    "programa_id": 4,
+    "codigo": "ZOOT",
+    "nombre": "Zootecnia",
+    "facultad": "Ciencias Agropecuarias",
+    "duracion_semestres": 10
+  },
+  {
+    "programa_id": 5,
+    "codigo": "ENFE",
+    "nombre": "Enfermería",
+    "facultad": "Ciencias de la Salud",
+    "duracion_semestres": 8
+  }
+]

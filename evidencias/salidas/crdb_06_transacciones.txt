@@ -1,0 +1,21 @@
+SET
+matriculas_inicio
+36
+BEGIN
+INSERT 0 1
+INSERT 0 1
+COMMIT
+momento	estudiante	matriculas
+tras COMMIT	1	1
+BEGIN
+INSERT 0 1
+INSERT 0 1
+momento	estudiante
+dentro de la tx	1
+ROLLBACK
+momento	estudiante	matriculas
+tras ROLLBACK	0	0
+DELETE 1
+DELETE 1
+matriculas_fin
+36

@@ -1,0 +1,558 @@
+[
+  {
+    "codigo": "E2024001",
+    "nombres": "Ana",
+    "apellidos": "Ramírez Rojas",
+    "correo": "est01@ejemplo.invalid",
+    "fecha_nacimiento": "2000-04-18",
+    "ciudad": "Fusagasugá",
+    "programa_id": 1,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3002419955",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-12",
+        "estado": "FINALIZADA",
+        "creditos": 20,
+        "valor": 3600000
+      },
+      {
+        "semestre": "2025-2",
+        "fecha_matricula": "2025-08-13",
+        "estado": "FINALIZADA",
+        "creditos": 14,
+        "valor": 2520000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024002",
+    "nombres": "Luis",
+    "apellidos": "Gómez Salazar",
+    "correo": "est02@ejemplo.invalid",
+    "fecha_nacimiento": "1999-06-15",
+    "ciudad": "Bogotá",
+    "programa_id": 2,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3002390784",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-04",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      },
+      {
+        "semestre": "2025-2",
+        "fecha_matricula": "2025-08-08",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024003",
+    "nombres": "María",
+    "apellidos": "Torres Rincón",
+    "correo": "est03@ejemplo.invalid",
+    "fecha_nacimiento": "2001-04-09",
+    "ciudad": "Bogotá",
+    "programa_id": 3,
+    "fecha_ingreso": "2025-02-03",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-04",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      },
+      {
+        "semestre": "2025-2",
+        "fecha_matricula": "2025-08-10",
+        "estado": "APLAZADA",
+        "creditos": 14,
+        "valor": 2520000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024004",
+    "nombres": "Carlos",
+    "apellidos": "Rojas Ramírez",
+    "correo": "est04@ejemplo.invalid",
+    "fecha_nacimiento": "2004-10-20",
+    "ciudad": "Soacha",
+    "programa_id": 4,
+    "fecha_ingreso": "2024-08-05",
+    "telefono": "3003207236",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-11",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      },
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-05",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024005",
+    "nombres": "Laura",
+    "apellidos": "Herrera Moreno",
+    "correo": "est05@ejemplo.invalid",
+    "fecha_nacimiento": "1998-08-30",
+    "ciudad": "Arbeláez",
+    "programa_id": 5,
+    "fecha_ingreso": "2024-02-05",
+    "telefono": "3005456749",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-07",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      },
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-05",
+        "estado": "ACTIVA",
+        "creditos": 18,
+        "valor": 3240000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024006",
+    "nombres": "Andrés",
+    "apellidos": "Castro Quintero",
+    "correo": "est06@ejemplo.invalid",
+    "fecha_nacimiento": "1999-10-18",
+    "ciudad": "Silvania",
+    "programa_id": 1,
+    "fecha_ingreso": "2024-02-05",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-11",
+        "estado": "ACTIVA",
+        "creditos": 18,
+        "valor": 3240000
+      },
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-11",
+        "estado": "FINALIZADA",
+        "creditos": 20,
+        "valor": 3600000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024007",
+    "nombres": "Camila",
+    "apellidos": "Vargas Ríos",
+    "correo": "est07@ejemplo.invalid",
+    "fecha_nacimiento": "2002-05-27",
+    "ciudad": "Silvania",
+    "programa_id": 2,
+    "fecha_ingreso": "2024-08-05",
+    "telefono": "3003889683",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-07",
+        "estado": "FINALIZADA",
+        "creditos": 20,
+        "valor": 3600000
+      },
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-10",
+        "estado": "ACTIVA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024008",
+    "nombres": "Jorge",
+    "apellidos": "Moreno Herrera",
+    "correo": "est08@ejemplo.invalid",
+    "fecha_nacimiento": "2002-11-21",
+    "ciudad": "Fusagasugá",
+    "programa_id": 3,
+    "fecha_ingreso": "2024-02-05",
+    "telefono": "3002436948",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-11",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      },
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-08",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024009",
+    "nombres": "Valentina",
+    "apellidos": "Jiménez Ortiz",
+    "correo": "est09@ejemplo.invalid",
+    "fecha_nacimiento": "2004-06-27",
+    "ciudad": "Fusagasugá",
+    "programa_id": 4,
+    "fecha_ingreso": "2024-08-05",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-09",
+        "estado": "FINALIZADA",
+        "creditos": 12,
+        "valor": 2160000
+      },
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-10",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024010",
+    "nombres": "Felipe",
+    "apellidos": "Pardo Bernal",
+    "correo": "est10@ejemplo.invalid",
+    "fecha_nacimiento": "2003-11-22",
+    "ciudad": "Fusagasugá",
+    "programa_id": 5,
+    "fecha_ingreso": "2024-08-05",
+    "telefono": "3007662722",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-12",
+        "estado": "ACTIVA",
+        "creditos": 14,
+        "valor": 2520000
+      },
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-06",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024011",
+    "nombres": "Daniela",
+    "apellidos": "Salazar Gómez",
+    "correo": "est11@ejemplo.invalid",
+    "fecha_nacimiento": "2002-05-27",
+    "ciudad": "Bogotá",
+    "programa_id": 1,
+    "fecha_ingreso": "2024-02-05",
+    "telefono": "3005371980",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-13",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      },
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-15",
+        "estado": "FINALIZADA",
+        "creditos": 14,
+        "valor": 2520000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024012",
+    "nombres": "Sebastián",
+    "apellidos": "Ortiz Jiménez",
+    "correo": "est12@ejemplo.invalid",
+    "fecha_nacimiento": "2001-11-06",
+    "ciudad": "Fusagasugá",
+    "programa_id": 2,
+    "fecha_ingreso": "2024-08-05",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-12",
+        "estado": "ACTIVA",
+        "creditos": 14,
+        "valor": 2520000
+      },
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-04",
+        "estado": "FINALIZADA",
+        "creditos": 12,
+        "valor": 2160000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024013",
+    "nombres": "Paula",
+    "apellidos": "Mejía Parra",
+    "correo": "est13@ejemplo.invalid",
+    "fecha_nacimiento": "1999-12-23",
+    "ciudad": "Soacha",
+    "programa_id": 3,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3007454243",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-06",
+        "estado": "APLAZADA",
+        "creditos": 12,
+        "valor": 2160000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024014",
+    "nombres": "Mateo",
+    "apellidos": "Cárdenas Cortés",
+    "correo": "est14@ejemplo.invalid",
+    "fecha_nacimiento": "2002-01-24",
+    "ciudad": "Bogotá",
+    "programa_id": 4,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3001768147",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-06",
+        "estado": "FINALIZADA",
+        "creditos": 14,
+        "valor": 2520000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024015",
+    "nombres": "Sofía",
+    "apellidos": "Quintero Castro",
+    "correo": "est15@ejemplo.invalid",
+    "fecha_nacimiento": "2000-11-19",
+    "ciudad": "Arbeláez",
+    "programa_id": 5,
+    "fecha_ingreso": "2024-08-05",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-08",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024016",
+    "nombres": "Diego",
+    "apellidos": "Parra Mejía",
+    "correo": "est16@ejemplo.invalid",
+    "fecha_nacimiento": "1998-09-14",
+    "ciudad": "Girardot",
+    "programa_id": 1,
+    "fecha_ingreso": "2024-08-05",
+    "telefono": "3009855607",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-10",
+        "estado": "FINALIZADA",
+        "creditos": 20,
+        "valor": 3600000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024017",
+    "nombres": "Natalia",
+    "apellidos": "Suárez Acosta",
+    "correo": "est17@ejemplo.invalid",
+    "fecha_nacimiento": "2004-12-12",
+    "ciudad": "Silvania",
+    "programa_id": 2,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3006638611",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-11",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024018",
+    "nombres": "Santiago",
+    "apellidos": "Rincón Torres",
+    "correo": "est18@ejemplo.invalid",
+    "fecha_nacimiento": "2000-09-28",
+    "ciudad": "Bogotá",
+    "programa_id": 3,
+    "fecha_ingreso": "2024-08-05",
+    "matriculas": [
+      {
+        "semestre": "2024-2",
+        "fecha_matricula": "2024-08-13",
+        "estado": "FINALIZADA",
+        "creditos": 12,
+        "valor": 2160000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024019",
+    "nombres": "Isabela",
+    "apellidos": "Bernal Pardo",
+    "correo": "est19@ejemplo.invalid",
+    "fecha_nacimiento": "1998-06-09",
+    "ciudad": "Silvania",
+    "programa_id": 4,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3001386408",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-04",
+        "estado": "FINALIZADA",
+        "creditos": 18,
+        "valor": 3240000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024020",
+    "nombres": "Julián",
+    "apellidos": "Acosta Suárez",
+    "correo": "est20@ejemplo.invalid",
+    "fecha_nacimiento": "2000-10-09",
+    "ciudad": "Bogotá",
+    "programa_id": 5,
+    "fecha_ingreso": "2024-02-05",
+    "telefono": "3002773055",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-05",
+        "estado": "APLAZADA",
+        "creditos": 20,
+        "valor": 3600000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024021",
+    "nombres": "Lucía",
+    "apellidos": "Peña Lozano",
+    "correo": "est21@ejemplo.invalid",
+    "fecha_nacimiento": "1998-12-19",
+    "ciudad": "Soacha",
+    "programa_id": 1,
+    "fecha_ingreso": "2024-02-05",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-08",
+        "estado": "FINALIZADA",
+        "creditos": 16,
+        "valor": 2880000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024022",
+    "nombres": "Nicolás",
+    "apellidos": "Ríos Vargas",
+    "correo": "est22@ejemplo.invalid",
+    "fecha_nacimiento": "1998-12-09",
+    "ciudad": "Silvania",
+    "programa_id": 2,
+    "fecha_ingreso": "2024-02-05",
+    "telefono": "3002131875",
+    "matriculas": [
+      {
+        "semestre": "2024-1",
+        "fecha_matricula": "2024-02-10",
+        "estado": "FINALIZADA",
+        "creditos": 12,
+        "valor": 2160000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024023",
+    "nombres": "Juliana",
+    "apellidos": "Cortés Cárdenas",
+    "correo": "est23@ejemplo.invalid",
+    "fecha_nacimiento": "2002-10-19",
+    "ciudad": "Fusagasugá",
+    "programa_id": 3,
+    "fecha_ingreso": "2025-02-03",
+    "telefono": "3005403280",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-04",
+        "estado": "CANCELADA",
+        "creditos": 14,
+        "valor": 2520000
+      }
+    ]
+  },
+  {
+    "codigo": "E2024024",
+    "nombres": "Tomás",
+    "apellidos": "Lozano Peña",
+    "correo": "est24@ejemplo.invalid",
+    "fecha_nacimiento": "2004-11-16",
+    "ciudad": "Fusagasugá",
+    "programa_id": 4,
+    "fecha_ingreso": "2025-02-03",
+    "matriculas": [
+      {
+        "semestre": "2025-1",
+        "fecha_matricula": "2025-02-03",
+        "estado": "ACTIVA",
+        "creditos": 12,
+        "valor": 2160000
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+SET
+codigo	ciudad
+E2024001	Fusagasugá
+UPDATE 1
+codigo	ciudad
+E2024001	Cajicá
+INSERT 0 1
+existe_antes
+1
+DELETE 1
+existe_despues
+0
+UPDATE 1
+ERROR: insert on table "matriculas" violates foreign key constraint "matriculas_codigo_estudiante_fkey"
+SQLSTATE: 23503
+DETAIL: Key (codigo_estudiante)=('NOEXISTE') is not present in table "estudiantes".
+CONSTRAINT: matriculas_codigo_estudiante_fkey
+ERROR: failed to satisfy CHECK constraint (estado IN ('ACTIVA':::STRING, 'FINALIZADA':::STRING, 'CANCELADA':::STRING, 'APLAZADA':::STRING))
+SQLSTATE: 23514
+CONSTRAINT: check_estado
+ERROR: delete on table "programas" violates foreign key constraint "estudiantes_programa_id_fkey" on table "estudiantes"
+SQLSTATE: 23503
+DETAIL: Key (programa_id)=(1) is still referenced from table "estudiantes".
+CONSTRAINT: estudiantes_programa_id_fkey
+ERROR: duplicate key value violates unique constraint "uq_est_semestre"
+SQLSTATE: 23505
+DETAIL: Key (codigo_estudiante, semestre)=('E2024001', '2025-1') already exists.
+CONSTRAINT: uq_est_semestre
+estudiantes	matriculas	programas
+24	36	5
