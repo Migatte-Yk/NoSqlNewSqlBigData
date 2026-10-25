@@ -71,5 +71,5 @@ Resultados esperados: 5 / 24 / 36 (matrículas embebidas); mismas agregaciones q
 | Capturas de pantalla | 16 imágenes en `evidencias/` (ver índice en `evidencias/README.md`) |
 
 Autor: Nikolas Krejci · Especialización en Analítica y Ciencia de Datos, Universidad de Cundinamarca.
-Informe técnico: [`informe/informe_tecnico.pdf`](informe/informe_tecnico.pdf) (fuente en `informe/informe_tecnico.md`; se regenera con `python informe/generar_pdf.py`, requiere `pip install markdown` y Microsoft Edge).
+Informe técnico: [`informe/informe_tecnico.pdf`](informe/informe_tecnico.pdf).
 Repositorio: https://github.com/Migatte-Yk/NoSqlNewSqlBigData

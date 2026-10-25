@@ -16,3 +16,7 @@ node_modules/
 __pycache__/
 *.log
 .claude/
+
+# Fuentes del informe (se mantienen fuera del repositorio)
+informe/informe_tecnico.md
+informe/generar_pdf.py
