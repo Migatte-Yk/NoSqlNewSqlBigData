@@ -1,0 +1,3 @@
+programas:   5
+estudiantes: 24
+matrículas embebidas: 36

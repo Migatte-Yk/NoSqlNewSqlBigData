@@ -1,0 +1,327 @@
+
+--- 1) find() general (3 de N)
+[
+  {
+    _id: 'E2024001',
+    codigo: 'E2024001',
+    nombres: 'Ana',
+    apellidos: 'Ramírez Rojas',
+    correo: 'est01@ejemplo.invalid',
+    fecha_nacimiento: ISODate('2000-04-18T00:00:00.000Z'),
+    ciudad: 'Fusagasugá',
+    programa_id: 1,
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z'),
+    telefono: '3002419955',
+    matriculas: [
+      {
+        semestre: '2025-1',
+        fecha_matricula: ISODate('2025-02-12T00:00:00.000Z'),
+        estado: 'FINALIZADA',
+        creditos: 20,
+        valor: 3600000
+      },
+      {
+        semestre: '2025-2',
+        fecha_matricula: ISODate('2025-08-13T00:00:00.000Z'),
+        estado: 'FINALIZADA',
+        creditos: 14,
+        valor: 2520000
+      }
+    ]
+  },
+  {
+    _id: 'E2024002',
+    codigo: 'E2024002',
+    nombres: 'Luis',
+    apellidos: 'Gómez Salazar',
+    correo: 'est02@ejemplo.invalid',
+    fecha_nacimiento: ISODate('1999-06-15T00:00:00.000Z'),
+    ciudad: 'Bogotá',
+    programa_id: 2,
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z'),
+    telefono: '3002390784',
+    matriculas: [
+      {
+        semestre: '2025-1',
+        fecha_matricula: ISODate('2025-02-04T00:00:00.000Z'),
+        estado: 'FINALIZADA',
+        creditos: 16,
+        valor: 2880000
+      },
+      {
+        semestre: '2025-2',
+        fecha_matricula: ISODate('2025-08-08T00:00:00.000Z'),
+        estado: 'FINALIZADA',
+        creditos: 18,
+        valor: 3240000
+      }
+    ]
+  },
+  {
+    _id: 'E2024003',
+    codigo: 'E2024003',
+    nombres: 'María',
+    apellidos: 'Torres Rincón',
+    correo: 'est03@ejemplo.invalid',
+    fecha_nacimiento: ISODate('2001-04-09T00:00:00.000Z'),
+    ciudad: 'Bogotá',
+    programa_id: 3,
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z'),
+    matriculas: [
+      {
+        semestre: '2025-1',
+        fecha_matricula: ISODate('2025-02-04T00:00:00.000Z'),
+        estado: 'FINALIZADA',
+        creditos: 16,
+        valor: 2880000
+      },
+      {
+        semestre: '2025-2',
+        fecha_matricula: ISODate('2025-08-10T00:00:00.000Z'),
+        estado: 'APLAZADA',
+        creditos: 14,
+        valor: 2520000
+      }
+    ]
+  }
+]
+
+--- 2) programa_id = 1
+[
+  {
+    _id: 'E2024001',
+    nombres: 'Ana',
+    apellidos: 'Ramírez Rojas'
+  },
+  {
+    _id: 'E2024006',
+    nombres: 'Andrés',
+    apellidos: 'Castro Quintero'
+  },
+  {
+    _id: 'E2024011',
+    nombres: 'Daniela',
+    apellidos: 'Salazar Gómez'
+  },
+  {
+    _id: 'E2024016',
+    nombres: 'Diego',
+    apellidos: 'Parra Mejía'
+  },
+  {
+    _id: 'E2024021',
+    nombres: 'Lucía',
+    apellidos: 'Peña Lozano'
+  }
+]
+
+--- 3) proyección
+[
+  {
+    codigo: 'E2024001',
+    nombres: 'Ana',
+    ciudad: 'Fusagasugá'
+  },
+  {
+    codigo: 'E2024002',
+    nombres: 'Luis',
+    ciudad: 'Bogotá'
+  },
+  {
+    codigo: 'E2024003',
+    nombres: 'María',
+    ciudad: 'Bogotá'
+  },
+  {
+    codigo: 'E2024004',
+    nombres: 'Carlos',
+    ciudad: 'Soacha'
+  },
+  {
+    codigo: 'E2024005',
+    nombres: 'Laura',
+    ciudad: 'Arbeláez'
+  }
+]
+
+--- 4) sort apellidos
+[
+  {
+    codigo: 'E2024020',
+    apellidos: 'Acosta Suárez'
+  },
+  {
+    codigo: 'E2024019',
+    apellidos: 'Bernal Pardo'
+  },
+  {
+    codigo: 'E2024006',
+    apellidos: 'Castro Quintero'
+  },
+  {
+    codigo: 'E2024023',
+    apellidos: 'Cortés Cárdenas'
+  },
+  {
+    codigo: 'E2024014',
+    apellidos: 'Cárdenas Cortés'
+  }
+]
+
+--- 5) fecha_ingreso >= 2025-01-01
+[
+  {
+    codigo: 'E2024001',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024002',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024003',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024013',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024014',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024017',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024019',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024023',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  },
+  {
+    codigo: 'E2024024',
+    fecha_ingreso: ISODate('2025-02-03T00:00:00.000Z')
+  }
+]
+
+--- 6) $and/$or
+[
+  {
+    codigo: 'E2024001',
+    ciudad: 'Fusagasugá',
+    programa_id: 1
+  },
+  {
+    codigo: 'E2024011',
+    ciudad: 'Bogotá',
+    programa_id: 1
+  },
+  {
+    codigo: 'E2024002',
+    ciudad: 'Bogotá',
+    programa_id: 2
+  },
+  {
+    codigo: 'E2024012',
+    ciudad: 'Fusagasugá',
+    programa_id: 2
+  }
+]
+
+--- 7) telefono inexistente
+[
+  {
+    codigo: 'E2024003'
+  },
+  {
+    codigo: 'E2024006'
+  },
+  {
+    codigo: 'E2024009'
+  },
+  {
+    codigo: 'E2024012'
+  },
+  {
+    codigo: 'E2024015'
+  },
+  {
+    codigo: 'E2024018'
+  },
+  {
+    codigo: 'E2024021'
+  },
+  {
+    codigo: 'E2024024'
+  }
+]
+
+--- 8) conteos
+{
+  total_estudiantes: 24,
+  programa_1: 5,
+  total_programas: 5
+}
+
+--- 9) más de una matrícula ($expr + $size)
+[
+  {
+    codigo: 'E2024001',
+    apellidos: 'Ramírez Rojas'
+  },
+  {
+    codigo: 'E2024002',
+    apellidos: 'Gómez Salazar'
+  },
+  {
+    codigo: 'E2024003',
+    apellidos: 'Torres Rincón'
+  },
+  {
+    codigo: 'E2024004',
+    apellidos: 'Rojas Ramírez'
+  },
+  {
+    codigo: 'E2024005',
+    apellidos: 'Herrera Moreno'
+  },
+  {
+    codigo: 'E2024006',
+    apellidos: 'Castro Quintero'
+  },
+  {
+    codigo: 'E2024007',
+    apellidos: 'Vargas Ríos'
+  },
+  {
+    codigo: 'E2024008',
+    apellidos: 'Moreno Herrera'
+  },
+  {
+    codigo: 'E2024009',
+    apellidos: 'Jiménez Ortiz'
+  },
+  {
+    codigo: 'E2024010',
+    apellidos: 'Pardo Bernal'
+  },
+  {
+    codigo: 'E2024011',
+    apellidos: 'Salazar Gómez'
+  },
+  {
+    codigo: 'E2024012',
+    apellidos: 'Ortiz Jiménez'
+  }
+]
+
+--- 10) matrícula CANCELADA
+[
+  {
+    codigo: 'E2024023'
+  }
+]

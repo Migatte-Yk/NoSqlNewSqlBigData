@@ -1,0 +1,12 @@
+Versión del servidor MongoDB: 9.0.2
+Versión de mongosh:           2.14.0
+{
+  ok: 1
+}
+¿Es primario/standalone? isWritablePrimary=true | setName=(sin conjunto de réplicas: standalone)
+[
+  'admin',
+  'config',
+  'local'
+]
+9.0.2

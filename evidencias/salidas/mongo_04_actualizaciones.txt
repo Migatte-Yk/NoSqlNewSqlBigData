@@ -1,0 +1,96 @@
+
+--- antes
+{
+  _id: 'E2024001',
+  ciudad: 'Fusagasugá'
+}
+
+--- updateOne
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+--- después
+{
+  _id: 'E2024001',
+  ciudad: 'Cajicá'
+}
+
+--- updateMany $set
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+--- verificación (programa 5)
+4
+
+--- updateMany $unset (limpieza)
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+--- matrícula 2025-1 de E2024002 antes
+[
+  {
+    semestre: '2025-1',
+    fecha_matricula: ISODate('2025-02-04T00:00:00.000Z'),
+    estado: 'FINALIZADA',
+    creditos: 16,
+    valor: 2880000
+  },
+  {
+    semestre: '2025-2',
+    fecha_matricula: ISODate('2025-08-08T00:00:00.000Z'),
+    estado: 'FINALIZADA',
+    creditos: 18,
+    valor: 3240000
+  }
+]
+
+--- después
+[
+  {
+    semestre: '2025-1',
+    fecha_matricula: ISODate('2025-02-04T00:00:00.000Z'),
+    estado: 'APLAZADA',
+    creditos: 16,
+    valor: 2880000
+  },
+  {
+    semestre: '2025-2',
+    fecha_matricula: ISODate('2025-08-08T00:00:00.000Z'),
+    estado: 'FINALIZADA',
+    creditos: 18,
+    valor: 3240000
+  }
+]
+
+--- existe antes
+1
+
+--- deleteOne
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+
+--- existe después (debe ser 0)
+0
+
+--- insert sin validación (programa_id 999 inexistente)
+1
+
+--- conteo final de estudiantes (debe ser 24)
+24

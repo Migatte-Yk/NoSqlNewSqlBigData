@@ -1,0 +1,84 @@
+
+--- P1) estudiantes por programa
+[
+  {
+    total_estudiantes: 5,
+    programa: 'Administración de Empresas'
+  },
+  {
+    total_estudiantes: 5,
+    programa: 'Contaduría Pública'
+  },
+  {
+    total_estudiantes: 5,
+    programa: 'Ingeniería de Sistemas'
+  },
+  {
+    total_estudiantes: 5,
+    programa: 'Zootecnia'
+  },
+  {
+    total_estudiantes: 4,
+    programa: 'Enfermería'
+  }
+]
+
+--- P2) matrículas por estado
+[
+  {
+    _id: 'FINALIZADA',
+    total: 26
+  },
+  {
+    _id: 'ACTIVA',
+    total: 6
+  },
+  {
+    _id: 'APLAZADA',
+    total: 3
+  },
+  {
+    _id: 'CANCELADA',
+    total: 1
+  }
+]
+
+--- P3) resumen por semestre
+[
+  {
+    _id: '2024-1',
+    matriculas: 7,
+    creditos_totales: 118,
+    valor_total: 21240000
+  },
+  {
+    _id: '2024-2',
+    matriculas: 12,
+    creditos_totales: 194,
+    valor_total: 34920000
+  },
+  {
+    _id: '2025-1',
+    matriculas: 14,
+    creditos_totales: 216,
+    valor_total: 38880000
+  },
+  {
+    _id: '2025-2',
+    matriculas: 3,
+    creditos_totales: 46,
+    valor_total: 8280000
+  }
+]
+
+--- P4) programas con al menos 8 matrículas
+[
+  {
+    total_matriculas: 8,
+    programa: 'Administración de Empresas'
+  },
+  {
+    total_matriculas: 8,
+    programa: 'Ingeniería de Sistemas'
+  }
+]
